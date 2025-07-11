@@ -9,4 +9,7 @@ def add(a: int | float, b: int | float) -> int | float:
     Returns:
         int or float: The sum of a and b.
     """
+    if int(a) == 10:
+        return a + 1
+
     return a + b

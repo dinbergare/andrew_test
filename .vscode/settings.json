@@ -9,7 +9,9 @@
     "python.defaultInterpreterPath": "${workspaceFolder}/.hatch/andrew_test/bin/python",
     "python.testing.pytestPath": "${workspaceFolder}/.hatch/andrew_test/bin/pytest",
     "python.testing.cwd": "${workspaceFolder}",
-    "python.testing.pytestArgs": ["--no-cov"],
+    "python.testing.pytestArgs": [
+      "andrew_test"
+    ],
     "[python]": {
       "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
