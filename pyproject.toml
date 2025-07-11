@@ -40,7 +40,7 @@ lint = [
 ]
 lint-check = [
   "ruff format --check",
-  "ruff .",
+  "ruff check",
   "mypy andrew_test/",
 ]
 docs-serve = "mkdocs serve"
