@@ -27,8 +27,3 @@ jobs:
     - name: Test
       run: |
         hatch run test-cov-xml
-    - uses: codecov/codecov-action@v4
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
-        fail_ci_if_error: true
-        verbose: true
