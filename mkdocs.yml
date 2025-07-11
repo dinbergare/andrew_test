@@ -60,5 +60,6 @@ watch:
 
 nav:
     - About: index.md
+    - Testing: testing.md
     - Reference:
         - andrew_test: reference/andrew_test.md

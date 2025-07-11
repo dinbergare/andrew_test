@@ -1,6 +1,6 @@
 import pytest
 
-from andrew_test import add
+from andrew_test.main import add
 
 
 @pytest.mark.parametrize(
@@ -13,3 +13,7 @@ from andrew_test import add
 )
 def test_add(a: int, b: int, result: int):
     assert add(a, b) == result
+
+
+def test_fail(a, b):
+    assert 1 == 2
