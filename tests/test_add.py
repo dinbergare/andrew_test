@@ -15,5 +15,5 @@ def test_add(a: int, b: int, result: int):
     assert add(a, b) == result
 
 
-def test_fail(a, b):
+def test_fail():
     assert 1 == 1
