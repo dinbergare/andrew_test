@@ -17,3 +17,8 @@ def test_add(a: int, b: int, result: int):
 
 def test_fail():
     assert 1 == 1
+
+
+def test_ten():
+    assert add(10, 0) == 11
+    assert add(10.0, 0.0) == 11.0
