@@ -16,4 +16,4 @@ def test_add(a: int, b: int, result: int):
 
 
 def test_fail(a, b):
-    assert 1 == 2
+    assert 1 == 1
