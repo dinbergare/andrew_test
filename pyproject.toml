@@ -39,7 +39,7 @@ lint = [
   "mypy andrew_test/",
 ]
 lint-check = [
-  "ruff format --check .",
+  "ruff format --check",
   "ruff .",
   "mypy andrew_test/",
 ]
